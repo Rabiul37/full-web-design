@@ -233,7 +233,7 @@ font-weight: 300;
 line-height: 28px;
 outline:none;
 }
-span{
+a span{
     color:#FD6E0A;
     font-size: 20px;
     padding: 10px;
