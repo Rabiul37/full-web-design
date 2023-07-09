@@ -15,6 +15,14 @@ font-weight: 700;
 color:#fff;
 padding:15px 35px; 
 }
+h1{
+color: #181818;
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 /* header related style */
 
 /* nav ralated style */
@@ -138,4 +146,95 @@ margin-right: 15px;
 }
 .skill  img{
     border-radius: 10px;
+}
+
+
+
+.resume-container>h2{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+   font-weight: 700;
+   line-height: normal;
+   margin-top: 200px;
+}
+.resume-info{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.resume-info h3{
+color: #757575;
+font-size: 25px;
+font-weight: 600;
+}
+.resume-info h4{
+    color: #757575;
+font-size: 20px;
+font-weight: 600;
+}
+.resume-info h5{
+    color: #757575;
+font-size: 15px;
+font-weight: 500;
+}
+.resume-info p{
+color: #757575;
+font-size: 15px;
+font-weight: 300;
+line-height: 28px;
+}
+.my-education{
+    padding:40px;
+}
+.my-experience{
+    padding:30px;
+}
+.education{
+    border-bottom: .5px solid #757575;
+}
+.experience{
+    border-bottom: .5px solid #757575;
+}
+.resume-container .btn-primary{
+    margin-left: 470px;
+}
+
+footer{
+    background-color:#fdf0e7; 
+    padding:130px 150px;
+    margin-top: 200px;
+}
+.contact{
+    display:flex;
+    justify-content: space-between;
+    align-items: ;
+}
+.contact-info{
+    width:550px;
+   
+}
+.contact-info p{
+color:  #474747;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+}
+
+input[type="text"],[type="email"],textarea{
+    display:block;
+    border:none;
+    padding:15px 150px 15px 20px;
+    margin-bottom: 25px;
+    color: #757575;
+font-size: 15px;
+font-weight: 300;
+line-height: 28px;
+outline:none;
+}
+span{
+    color:#FD6E0A;
+    font-size: 20px;
+    padding: 10px;
 }
