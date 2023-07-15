@@ -6,6 +6,9 @@ font-family: 'Open Sans', sans-serif;
 .text-primary{
    color:#FD6E0A;
 }
+main{
+    margin-bottom: 150px;
+}
 .btn-primary{
 border-radius: 5px;
 background: #FD6E0A;
@@ -131,25 +134,26 @@ font-size: 15px;
 
 }
 .skill-container{
-    display: flex;
-   
+display: flex;
+gap:15px;
 }
 .skill{
+
 color: #757575;
 border-radius: 5px;
 background: #FFF;
 box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 text-align: left;
-border:.5px solid gray;
 padding:40px;
-margin-right: 15px;
 }
 .skill  img{
     border-radius: 10px;
 }
 
 
-
+.resume-container{
+    margin-bottom: 150px;
+}
 .resume-container>h2{
     color: #181818;
     text-align: center;
@@ -201,14 +205,12 @@ line-height: 28px;
 }
 
 footer{
-    background-color:#fdf0e7; 
-    padding:130px 150px;
-    margin-top: 200px;
+background-color:#fdf0e7;
 }
 .contact{
     display:flex;
-    justify-content: space-between;
-    align-items: ;
+    justify-content: space-evenly;
+    align-items:center ;
 }
 .contact-info{
     width:550px;
@@ -237,4 +239,76 @@ a span{
     color:#FD6E0A;
     font-size: 20px;
     padding: 10px;
+}
+@media screen and (min-width:576px) and (max-width:960px){
+    nav{
+        flex-direction: column;
+    }
+.banner{
+    flex-direction:column;
+}
+
+.banner-content{
+    max-width:350px;
+}
+.profile-picture{
+    width:300px;
+}
+.about-info-container{
+    flex-direction:column;
+}
+.skill-container{
+    flex-direction:column;
+    align-items: center;
+}
+.resume-info{
+    flex-direction:column;
+}
+.resume-container .btn-primary{
+    margin-left: 350px;
+}
+.contact{
+flex-direction: column;
+}
+.contact-info{
+    width:350px;
+    border-bottom: 1px solid gray;
+}
+
+}
+@media screen and (max-width:576px){
+    nav{
+        flex-direction: column;
+    }
+.banner{
+    flex-direction:column;
+}
+
+.banner-content{
+    max-width:350px;
+}
+.profile-picture{
+    width:300px;
+}
+.about-info-container{
+    flex-direction:column;
+}
+.skill-container{
+    flex-direction:column;
+    align-items: center;
+}
+.resume-info{
+    flex-direction:column;
+}
+.resume-container .btn-primary{
+    margin-left: 150px;
+}
+.contact{
+flex-direction: column;
+}
+.contact-info{
+    width:350px;
+    border-bottom: 1px solid gray;
+}
+
 }
